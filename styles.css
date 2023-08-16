@@ -4,11 +4,12 @@ body {
     margin: 0px;
     color: #FBFAF5;
 }
-
+/* HEADER */
 .header {
     display: flex;
     background-color: #191919;
-    padding: 0px 100px;
+    padding: 1em 5em;
+    align-items: center;
 }
 
 .logo {
@@ -32,28 +33,34 @@ body {
     color: white;
 }
 
+/*LAYER ONE*/
 .layer-one {
     display: flex;
     background-color: #191919;
 }
 
-.awesome-container {
+.welcome-container {
     display: flex;
     flex-direction: column;
 }
 
+/*LAYER TWO*/
 .layer-two {
     background-color: green;
 }
 
+
+/*LAYER THREE*/
 .layer-three {
     background-color: yellow;
 }
 
+/*LAYER FOUR*/
 .layer-four {
     background-color: brown;
 }
 
+/*FOOTER*/
 .footer {
-    background-color: purple;
+    background-color: #191919;
 }

@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    color: #FBFAF5;
+}
+
+.header {
+    display: flex;
+    background-color: #191919;
+    padding: 0px 100px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.right-links {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.layer-one {
+    display: flex;
+    background-color: #191919;
+}
+
+.awesome-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.layer-two {
+    background-color: green;
+}
+
+.layer-three {
+    background-color: yellow;
+}
+
+.layer-four {
+    background-color: brown;
+}
+
+.footer {
+    background-color: purple;
+}

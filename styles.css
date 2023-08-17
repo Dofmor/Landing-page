@@ -119,12 +119,25 @@ h2 {
 
 /*LAYER THREE*/
 .layer-three {
-    background-color: yellow;
+    background-image: url(/images/lofi-background.jpg);
+    background-size: 100% auto;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding:250px;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 /*LAYER FOUR*/
 .layer-four {
-    background-color: brown;
+    background-color: #1F1F36;
 }
 
 .registration-container {
@@ -138,6 +151,7 @@ h2 {
 /*FOOTER*/
 .footer {
     background-color: #1F1F36;
+    text-align: center;
 }
 
 button {

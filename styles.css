@@ -121,7 +121,7 @@ h1 {
 
 /*LAYER THREE*/
 .layer-three {
-    background-image: url(/images/lofi-background.jpg);
+    background-image: url(./images/lofi-background.jpg);
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;

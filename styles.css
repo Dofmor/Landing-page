@@ -1,20 +1,20 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0px;
     color: #FBFAF5;
+    font-family: sans-serif;
 }
 /* HEADER */
 .header {
     display: flex;
-    background-color: #191919;
+    background-color: #1F1F36;
     padding: 1em 5em;
-    align-items: center;
 }
+
 
 .logo {
     width: 50px;
     height: 50px;
+    flex-shrink: 0;
 }
 .logo img {
     width: 100%;
@@ -30,25 +30,88 @@ body {
 
 .right-links a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
+}
+
+.right-links a:hover {
+    color:#FE5163;
 }
 
 /*LAYER ONE*/
 .layer-one {
     display: flex;
-    background-color: #191919;
-}
+    flex-wrap: wrap;
+    background-color: #1F1F36;
+    gap: 100px;
+    padding: 0em 5em 2em 5em;
+    justify-content: space-evenly;
+ }
 
 .welcome-container {
     display: flex;
+    flex: 0 0 300px;
+    min-height: 200px;
     flex-direction: column;
+    justify-content: start;
+    align-items: baseline;   
+
 }
+
+h1 {
+    margin: 0px;
+}
+
+.welcome-container button {
+    margin-top: auto;
+    background-color: #FE5163;
+    border-color: #FE5163;
+}
+
+.welcome-container button:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.image {
+    width: 400px;
+    height: 200px;
+    flex: 0 0 400px;
+
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /*LAYER TWO*/
 .layer-two {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
+h2 {
+    color:#1F1F36;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+.music-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+iframe {
+    max-width: 40%;
+    height: 352px;
+}
 
 /*LAYER THREE*/
 .layer-three {
@@ -60,7 +123,20 @@ body {
     background-color: brown;
 }
 
+.registration-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-container button {
+    align-self: center;
+}
 /*FOOTER*/
 .footer {
-    background-color: #191919;
+    background-color: #1F1F36;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 8px;
 }
